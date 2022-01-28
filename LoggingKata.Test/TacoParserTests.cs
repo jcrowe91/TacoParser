@@ -7,8 +7,7 @@ namespace LoggingKata.Test
     {
         [Fact]
         public void ShouldDoSomething()
-        {         
-                      
+        {                               
             var tacoParser = new TacoParser();                   
             var actual = tacoParser.Parse("34.073638, -84.677017, Taco Bell Acwort...");          
             Assert.NotNull(actual);
