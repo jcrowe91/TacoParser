@@ -44,9 +44,11 @@ namespace LoggingKata
                         secondBell = locB;
                         distance = corA.GetDistanceTo(corB);                        
                     }
+
+                    
                 }                
             }
-            Console.WriteLine($"{firstBell.Name} {secondBell.Name}");
+            Console.WriteLine($"{firstBell.Name} and {secondBell.Name} are the two furthest Taco Bell locations!");
             
 
             #region INSTRUCTIONS
